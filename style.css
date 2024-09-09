@@ -60,7 +60,7 @@ ul li {
 }
 
 .languages .language {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .language span {
@@ -69,11 +69,21 @@ ul li {
     margin-bottom: 0.5rem;
 }
 
-.bar {
-    height: 8px;
-    background-color: #0073e6;
+.slider-container {
+    background-color: #ddd;
     border-radius: 4px;
-    transition: width 0.3s;
+    height: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.slider {
+    background-color: #0073e6;
+    height: 100%;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 footer {
