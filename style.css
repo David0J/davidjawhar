@@ -1,36 +1,54 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Jawhar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>David Jawhar</h1>
+            <p>Computer Engineering Student | University of Balamand</p>
+        </div>
+    </header>
 
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-}
+    <main>
+        <section class="intro">
+            <h2>About Me</h2>
+            <p>I am an 18-year-old student specializing in Computer Engineering, with skills in web development and Python programming. Fluent in Arabic, English, and proficient in French.</p>
+        </section>
 
-section {
-    margin: 2rem;
-}
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Python Programming</li>
+                <li>Languages: Arabic, English, French</li>
+            </ul>
+        </section>
 
-h1, h2 {
-    color: #333;
-}
+        <section class="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>Scouts Member since 2012</li>
+                <li>Lions Clubs Member since 2021</li>
+                <li>Contributed to the Koura Lions Clubs Medical Center</li>
+            </ul>
+        </section>
 
-.skills, .experience, .education {
-    background-color: white;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
+        <section class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>University of Balamand - Computer Engineering</li>
+                <li>College Saint Joseph Batroun</li>
+            </ul>
+        </section>
+    </main>
 
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
-}
+    <footer>
+        <p>Contact me at: <a href="mailto:david.jawhar@example.com">david.jawhar@example.com</a></p>
+    </footer>
+</body>
+</html>
