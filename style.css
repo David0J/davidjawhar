@@ -1,54 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David Jawhar - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>David Jawhar</h1>
-            <p>Computer Engineering Student | University of Balamand</p>
-        </div>
-    </header>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
 
-    <main>
-        <section class="intro">
-            <h2>About Me</h2>
-            <p>I am an 18-year-old student specializing in Computer Engineering, with skills in web development and Python programming. Fluent in Arabic, English, and proficient in French.</p>
-        </section>
+header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+}
 
-        <section class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Web Development</li>
-                <li>Python Programming</li>
-                <li>Languages: Arabic, English, French</li>
-            </ul>
-        </section>
+header .container {
+    max-width: 900px;
+    margin: 0 auto;
+}
 
-        <section class="experience">
-            <h2>Experience</h2>
-            <ul>
-                <li>Scouts Member since 2012</li>
-                <li>Lions Clubs Member since 2021</li>
-                <li>Contributed to the Koura Lions Clubs Medical Center</li>
-            </ul>
-        </section>
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
 
-        <section class="education">
-            <h2>Education</h2>
-            <ul>
-                <li>University of Balamand - Computer Engineering</li>
-                <li>College Saint Joseph Batroun</li>
-            </ul>
-        </section>
-    </main>
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
 
-    <footer>
-        <p>Contact me at: <a href="mailto:david.jawhar@example.com">david.jawhar@example.com</a></p>
-    </footer>
-</body>
-</html>
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+section h2 {
+    border-bottom: 3px solid #0073e6;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.75rem;
+}
+
+.languages .language {
+    margin-bottom: 1rem;
+}
+
+.language span {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.bar {
+    height: 8px;
+    background-color: #0073e6;
+    border-radius: 4px;
+    transition: width 0.3s;
+}
+
+footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: #ffeb3b;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
