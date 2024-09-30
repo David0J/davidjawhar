@@ -53,6 +53,7 @@ h4 {
     font-size: 30px;
 }
 .btn {
+    border-radius: 10px;
     min-width: 145px;
     line-height: 50px;
     padding: 0 30px;
@@ -68,11 +69,13 @@ h4 {
 }
 
 .btn-fill {
+    border-radius: 10px;
     color: #fff;
     background-color: #212121;
 }
 
 .btn-border {
+    border-radius: 10px;
     background-color: transparent;
     color: #212121;
     border: 1px solid #212121; 
